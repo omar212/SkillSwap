@@ -1,0 +1,44 @@
+# ----------------------
+# Node / React (frontend)
+# ----------------------
+frontend/node_modules/
+frontend/.turbo/
+frontend/dist/
+frontend/.next/
+frontend/.env.local
+frontend/.DS_Store
+
+# ----------------------
+# Go (backend)
+# ----------------------
+backend/bin/
+backend/pkg/
+backend/.env
+backend/go.sum
+backend/go.mod
+
+# Go build artifacts
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# ----------------------
+# OS / Editor Junk
+# ----------------------
+.DS_Store
+*.log
+*.swp
+*.swo
+.idea/
+.vscode/
+*.env
+
+# ----------------------
+# Docker
+# ----------------------
+*.pid
+docker-compose.override.yml
